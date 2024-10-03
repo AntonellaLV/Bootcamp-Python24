@@ -2,11 +2,11 @@
 
 # Tarea 1: Leer un archivo de texto
 try:
-    with open('datos.txt', 'r') as archivo:
+    with open('registro.txt', 'r') as archivo:
         contenido = archivo.read()
         print("Contenido del archivo:\n", contenido)
 except FileNotFoundError:
-    print("El archivo 'datos.txt' no fue encontrado.")
+    print("El archivo 'registro.txt' no fue encontrado.")
 
 # Explicación: Este programa abre el archivo datos.txt en modo lectura ('r'),
 # lee su contenido con read() y lo imprime.
