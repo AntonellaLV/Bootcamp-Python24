@@ -18,7 +18,7 @@ class Triangulo:
         else:
             return "Escaleno"
 
-# Ejemplo de uso
+
 triangulo = Triangulo(2, 3, 1)
 
 print("\n**********************************")
